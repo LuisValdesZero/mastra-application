@@ -16,4 +16,11 @@ export const mastra = new Mastra({
     name: 'Mastra',
     level: 'info',
   }),
+  server: {
+    cors: {
+      origin: "*",
+      allowMethods: ["*"],
+      allowHeaders: ["*"],
+    }
+  },
 });
